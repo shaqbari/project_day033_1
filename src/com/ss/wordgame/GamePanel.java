@@ -82,7 +82,7 @@ public class GamePanel extends JPanel implements ItemListener{
 		setVisible(false);//최초에 등장안함
 		setPreferredSize(new Dimension(900, 700));
 		
-		getCategory();
+		//getCategory();
 	}
 	
 	//초이스 컴포넌트에 채워질 파일명 조사하기
