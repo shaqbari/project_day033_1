@@ -202,7 +202,7 @@ public class GamePanel extends JPanel implements ItemListener, Runnable, ActionL
 		//p_center 패널로 하여금 다시 그리게
 		//y+=20;
 		//p_center.repaint(); //패널을 repaint하면 이상하게 나온다. paint대신 paintComponent를 쓰자
-		
+		//하나에서는 이런식으로 가능하지만 여러개를 움직이려면 힘들다.
 		
 		
 		//System.out.println("down()");
