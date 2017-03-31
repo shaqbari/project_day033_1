@@ -45,7 +45,7 @@ public class GamePanel extends JPanel implements ItemListener, Runnable, ActionL
 	ArrayList<String> wordList=new ArrayList<String>();//조사한단어를 담아놓자! 게임에 써먹기 위해
 	
 	Thread thread;//단어게임을 진행할 쓰레드
-	boolean flag=true; //쓰레드의
+	boolean flag=true; //쓰레드 무한루프를 조정할 flag
 	//int y=50; //단어의 y축값 객체화시킨 Word에 넣자
 	ArrayList<Word> words=new ArrayList<Word>(); //생성될 Word객체를 담을 컬렉션
 	
@@ -202,8 +202,7 @@ public class GamePanel extends JPanel implements ItemListener, Runnable, ActionL
 		//p_center 패널로 하여금 다시 그리게
 		//y+=20;
 		//p_center.repaint(); //패널을 repaint하면 이상하게 나온다. paint대신 paintComponent를 쓰자
-		//하나에서는 이런식으로 가능하지만 여러개를 움직이려면 힘들다.
-		
+		//하나에서는 이런식으로 가능하지만 여러개를 움직이려면 힘들다.		
 		
 		//System.out.println("down()");
 	}*/

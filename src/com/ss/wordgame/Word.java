@@ -30,6 +30,6 @@ public class Word {
 	
 	//2.그 반영된 데이터를 이용하여 화면에 그리기
 	public void render(Graphics g){
-		g.drawString(name, x, y);
+		g.drawString(name, x, y); //그래픽스 객체가 없으니 인자로 받는다.
 	}
 }
